@@ -14,3 +14,8 @@
 .col-md-6 {
 	width: 50%;
 }
+.row:after {
+	content: "";
+	clear: both;
+	display: block;
+}
