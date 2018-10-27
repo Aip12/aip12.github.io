@@ -31,3 +31,12 @@ body {
 	width: 25%;
 	float: left;
 }
+.menu li a {
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: #2c71b8;
+	font-size: 21px;
+}
