@@ -88,3 +88,15 @@ input[type="submit"] {
 	top: 10px;
 	left: 178px;
 }
+button[type="submit"] {
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin-top: 5px;
+	margin-left: 33px; 
+	border: none;
+	background-image: url(images/cart.png);
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position: 50% 50%;
+}
