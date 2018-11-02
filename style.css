@@ -64,7 +64,7 @@ body {
     text-align: inherit;
     text-decoration: none;
    	border: none;
- }
+}
  .submenu > li > a {
     display: block;
     padding: 10px;
@@ -74,7 +74,16 @@ body {
     padding-left: 30px;
     font-size: 21px;
     border: none;
-  }
+}
+.submenu > li > a:hover {
+    background-color: white;
+    color: #2c71b8;
+    border: none;
+    min-height: 40px;
+}
+.menu > li:hover > .submenu {
+    display: block;
+}
 .container2 {
 	width: 293px;
 	margin: auto 0;
