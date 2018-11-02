@@ -23,6 +23,14 @@ body {
 	clear: both;
 	display: block;
 }
+
+.submenu:after {
+	display: block;
+    content: "";
+    clear: both;
+    float: none;
+}
+
 .header {
 	padding: 25px 0;
 	background-color: rgba(255,255,255,0.75);
