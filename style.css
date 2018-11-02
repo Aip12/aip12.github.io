@@ -81,6 +81,9 @@ body {
     border: none;
     min-height: 40px;
 }
+.submenu li:first-child {
+	padding-top: 25px;
+}
 .menu > li:hover > .submenu {
     display: block;
 }
