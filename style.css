@@ -23,27 +23,25 @@ body {
 	clear: both;
 	display: block;
 }
-
 .submenu:after {
 	display: block;
     content: "";
     clear: both;
     float: none;
 }
-
 .header {
 	padding: 25px 0;
 	background-color: rgba(255,255,255,0.75);
 }
-.menu li {
+.menu > li {
 	width: 25%;
 	float: left;
 	border-left: 1px solid #2c71b8;
 }
-.menu li:last-child {
+.menu > li:last-child {
 	border-right: 1px solid #2c71b8;
 }
-.menu li a {
+.menu > li > a {
 	display: block;
 	height: 50px;
 	line-height: 50px;
@@ -52,7 +50,7 @@ body {
 	color: #2c71b8;
 	font-size: 21px;
 }
-.menu li a:hover {
+.menu > li > a:hover {
 	background-color: #2c71b8;
 	color: white;
 }
