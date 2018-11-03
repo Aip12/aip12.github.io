@@ -80,12 +80,24 @@ body {
     color: #2c71b8;
     border: none;
     min-height: 40px;
+
 }
 .submenu li:first-child {
 	padding-top: 25px;
 }
 .menu > li:hover > .submenu {
     display: block;
+}
+.arrow2 {
+	position: relative;
+}
+.arrow img {
+	display: block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 18px;
+	left: 264px;
 }
 .container2 {
 	width: 293px;
