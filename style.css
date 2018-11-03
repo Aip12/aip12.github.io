@@ -103,11 +103,11 @@ body {
 	width: 293px;
 	margin: auto 0;
 }
-.col-md-9 {
+.col-md-2 {
 	width: 75%;
 	position: relative;
 }
-.col-md-12 {
+.col-md-1 {
 	width: 25%;
 	position: relative;
 }
