@@ -275,3 +275,60 @@ button[type="submit"] {
 .menu2 > li:hover > .submenu2 {
     display: block;
 }
+.goods {
+	display: block;
+	margin-right: 0;
+	margin-left: 0;
+	
+
+}
+.goods .col {
+	display: block;
+	float: left;
+	width: 270.5px;
+	height: 650px;
+	border: 1px solid white;
+	margin: 10px;
+}
+.logo2 {
+	display: block;
+	height: 170px;
+	width: 268.5px;
+	float: left;
+	background-color: rgba(255,255,255,0.75);
+	text-align: center;
+	padding-top: 40px;
+	position: relative;
+}
+.cub {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #2c71b8;
+	background-image: url(images/cub.png);
+	background-repeat: no-repeat;
+	background-color: rgba(255,255,255,0);
+	background-position: 50% 50%;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.heart {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: 1px solid #2c71b8;
+	background-image: url(images/heart.png);
+	background-repeat: no-repeat;
+	background-color: rgba(255,255,255,0);
+	background-position: 50% 50%;
+	position: absolute;
+	top: 50px;
+	right: 10px;
+}
+h2 {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
